@@ -1,0 +1,42 @@
+#container{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightblue;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: bisque;
+
+}
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-wrapper > h4{
+    margin: 10px 20px;
+    font-family: cursive;
+    font-size: 20px;
+}
+input{
+        padding: 5px;
+        margin: 0px 12px;
+        width: 120px;
+}
+
+select{
+    padding: 5px;
+}
+span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+}
